@@ -1,0 +1,23 @@
+{
+    "repository": "@hetic/G02-E06-LIGHT",
+    "personalAccessToken": "personal-access-token",
+    "rules": [
+      {
+        "path": "src/variables/my-colors.scss",
+        "filter": {
+          "types": ["color"]
+        },
+        "parsers": [
+          {
+            "name": "camelcasify",
+            "options": {
+              "keys": ["name"]
+            }
+          },
+          {
+            "name": "to-css-custom-properties"
+          }
+        ]
+      }
+    ]
+}
