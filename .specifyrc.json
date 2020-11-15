@@ -3,7 +3,7 @@
     "personalAccessToken": "personal-access-token",
     "rules": [
       {
-        "path": "src/variables/my-colors.scss",
+        "path": "src/scss/01-utils/colors.scss",
         "filter": {
           "types": ["color"]
         },
