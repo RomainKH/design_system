@@ -1,6 +1,6 @@
 {
     "repository": "@hetic/G02-E06-LIGHT",
-    "personalAccessToken": "personal-access-token",
+    "personalAccessToken": "7e484bc347a0566ffa947879e183895d36e6a2807c1a2a44ae10f6e0065fe1a5",
     "rules": [
       {
         "path": "src/scss/01-utils/colors.scss",
