@@ -3,19 +3,31 @@
     "personalAccessToken": "7e484bc347a0566ffa947879e183895d36e6a2807c1a2a44ae10f6e0065fe1a5",
     "rules": [
       {
-        "path": "src/scss/01-utils/colors.scss",
+        "name": "Colors - Light Theme",
+        "path": "src/scss/01-utils/variables/colors.scss",
         "filter": {
           "types": ["color"]
         },
         "parsers": [
           {
-            "name": "camelcasify",
+            "name": "kebabcasify",
             "options": {
               "keys": ["name"]
             }
           },
           {
-            "name": "to-css-custom-properties"
+            "name": "sort-by",
+            "options": {
+              "keys": ["name"]
+            }
+          },
+          {
+            "name": "to-css-custom-properties",
+            "options": {
+              "formatConfig": {
+                "selector": ":root[data-theme='light']"
+              }
+            }
           }
         ]
       }
