@@ -7,6 +7,8 @@
     <Link class="u-text-menu_items" link="#" text="Profile"/>
     <Avatar class="u-text-menu_items u-avatar-little" placeholder="J"/>
     <Text text="Watch out, this function causes the complete and irreversible deletion of your nickname. It will no longer be usable and you will lose all associated data. Make sure this is what you want to do." />
+    <SideBarItem linkText="Jane Doe" Link="#" avatar avatarPlaceholder="J" />
+    <SideBarItem linkText="Profile" Link="#" />
   </div>
 </template>
 
@@ -17,6 +19,7 @@ import Button from '../02-molecules/Button.vue'
 import Text from '../01-atoms/Text.vue'
 import Link from '../01-atoms/Link.vue'
 import Avatar from '../01-atoms/Avatar.vue'
+import SideBarItem from '../02-molecules/SideBarItem'
 export default {
   name: 'AccountPage',
   components: {
@@ -25,7 +28,8 @@ export default {
     Button,
     Text,
     Link,
-    Avatar
+    Avatar,
+    SideBarItem
   }
 }
 </script>
