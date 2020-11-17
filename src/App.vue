@@ -1,18 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <AccountPage/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/05-pages/HelloWorld.vue'
 import "./scss/style.scss";
+import AccountPage from './components/05-pages/AccountPage.vue'
 
+const html = document.querySelector('html')
+html.dataset.theme = "light"
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    AccountPage
   }
 }
 </script>

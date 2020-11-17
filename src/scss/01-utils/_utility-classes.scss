@@ -16,24 +16,36 @@
 
 .u-text-title {
     @include font-size(48);
+    font-weight: 500;
+    color: var(--light-neutral-n-4);
 }
 
 .u-text-label {
     @include font-size(32);
+    font-weight: 500;
+    color: var(--light-neutral-n-4);
 }
 
 .u-text-menu_items {
     @include font-size(22);
+    font-weight: 500;
+    color: var(--light-neutral-n-4);
 }
 
 .u-text-body_medium {
     @include font-size(16);
+    font-weight: 500;
+    color: var(--light-neutral-n-4);
 }
 
 .u-text-button {
     @include font-size(16);
+    font-weight: 500;
+    color: var(--light-neutral-n-4);
 }
 
 .u-text-sidebar_title {
     @include font-size(32);
+    font-weight: 500;
+    color: var(--light-neutral-n-4);
 }
