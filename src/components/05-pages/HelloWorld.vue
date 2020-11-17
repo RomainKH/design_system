@@ -20,6 +20,9 @@
       <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
     </ul>
     <FormInput title="Login" whatType="password" />
+    <Button text="Save" />
+    <Button text="Delete" submit />
+    <Text text="Watch out, this function causes the complete and irreversible deletion of your nickname. It will no longer be usable and you will lose all associated data. Make sure this is what you want to do." />
     <h3>Ecosystem</h3>
     <ul>
       <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
@@ -33,10 +36,14 @@
 
 <script>
 import FormInput from '../02-molecules/FormInput.vue'
+import Button from '../02-molecules/Button.vue'
+import Text from '../01-atoms/Text.vue'
 export default {
   name: 'HelloWorld',
   components: {
-    FormInput
+    FormInput,
+    Button,
+    Text
   },
   props: {
     msg: String
