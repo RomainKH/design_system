@@ -13,3 +13,27 @@
 .u-text-italic {
     font-style: italic !important;
 }
+
+.u-text-title {
+    @include font-size(48);
+}
+
+.u-text-label {
+    @include font-size(32);
+}
+
+.u-text-menu_items {
+    @include font-size(22);
+}
+
+.u-text-body_medium {
+    @include font-size(16);
+}
+
+.u-text-button {
+    @include font-size(16);
+}
+
+.u-text-sidebar_title {
+    @include font-size(32);
+}
