@@ -1,18 +1,18 @@
 <template>
   <div>
-    <Title :ish1="true" msg="Profile Page" />
-    <FormInput title="Login" whatType="email" placeholder="Jane Doe@gmail.com"/>
+    <TextComponent type="h1" msg="Profile Page" attribute="u-text-title" />
+    <FormInput title="Login" type="email" placeholder="Jane Doe@gmail.com" other="null"/>
   </div>
 </template>
 
 <script>
 import FormInput from '../02-molecules/FormInput.vue'
-import Title from '../01-atoms/Title.vue'
+import TextComponent from '../01-atoms/TextComponent.vue'
 export default {
   name: 'AccountPage',
   components: {
     FormInput,
-    Title
+    TextComponent
   }
 }
 </script>

@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "sync": "specify sync && specify extract",
+    "sync": "specify extract -C .specifyrc/light-theme.json && specify extract -C .specifyrc/dark-theme.json",
     "postinstall": "husky install"
   },
   "dependencies": {
